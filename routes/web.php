@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 get('about', function(){
-
+    return 'About page';
 });
 
 // whatever logic to add 
