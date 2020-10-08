@@ -18,7 +18,10 @@ Route::get('/', function () {
 });
 
 get('about', function(){
-    return 'About page';
+    return 'About me page';
 });
 
+get('reporting', function(){
+    return 'reporting feature';
+});
 // whatever logic to add 
